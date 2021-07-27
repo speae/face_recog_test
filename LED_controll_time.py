@@ -10,4 +10,4 @@ def led(pin, t):
 
     GPIO.cleanup(pin)
 
-led(18, 5) # 18번 핀(GPIO 24)에 끼운 LED를 5초동안 점등
+led(23, 5) # 18번 핀(GPIO 24)에 끼운 LED를 5초동안 점등
