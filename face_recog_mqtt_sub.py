@@ -45,8 +45,8 @@ def face_recog_receive():
     GPIO_ECHO = 21    # 29
  
     # 초음파를 내보낼 트리거 핀은 출력 모드로, 반사파를 수신할 에코 피은 입력 모드로 설정한다.
-    GPIO.setup(GPIO_TRIGGER,GPIO.OUT) 
-    GPIO.setup(GPIO_ECHO,GPIO.IN)
+    GPIO.setup(GPIO_TRIGGER, GPIO.OUT) 
+    GPIO.setup(GPIO_ECHO, GPIO.IN)
     
     display = drivers.Lcd()
         
